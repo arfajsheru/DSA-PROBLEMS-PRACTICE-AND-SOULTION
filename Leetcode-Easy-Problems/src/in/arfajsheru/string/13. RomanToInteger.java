@@ -1,6 +1,6 @@
 package in.arfajsheru.string;
 class RomanToInteger {
-    private final String [][] SYMBOL = new String[][] {
+    private final String [][] SYMBOL = new String[][] { // String two dimensional initialization
             {"I","1"},
             {"V","5"},
             {"X","10"},
@@ -9,11 +9,10 @@ class RomanToInteger {
             {"D","500"},
             {"M","1000"},
     };
-
-    private int getSymbolValue(char symbol){
+    private int getSymbolValue(char symbol){  // I , V
         for (String[] row : SYMBOL) {
-            if(row[0].equals(String.valueOf(symbol))){
-                return  Integer.parseInt(row[1]);
+            if(row[0].equals(String.valueOf(symbol))){  // I == I, V = V
+                return  Integer.parseInt(row[1]);  // 1,
             }
         }
         return 0;

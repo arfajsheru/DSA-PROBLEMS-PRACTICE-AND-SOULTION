@@ -19,7 +19,7 @@ class RemoveDuplicateFromSortedArray {
         if(arr.length == 0) return 0;
         int prev = 0; //prev = 0 , prev++ = 1 prev++ = 2 prev = 4
         for(int i = 1; i < arr.length; i++){ // i1 = 0, i2 = 1, i3 = 1, i4 = 1, i5 = 2, i6 = 2, i7 = 3 i8 = 3, i9 = 4
-            if(arr[prev] != arr[i]){ // 0 != 0 = false, 0 != 1 = ture, 1 != 1 false, 1 != 1 false, 1 != 2 true 2 != 2 false 2 != 3 true, 3 != 3 false, 3 != 4 true
+            if(arr[prev] != arr[i]){ // 0 != 0 = false, 0 != 1 = ture, 1 != 1 false, 1 != 2 true 2 != 2 false 2 != 3 true, 3 != 3 false, 3 != 4 true
                 arr[++prev] = arr[i];// prev = 1 prev = 2 prev = 3 prev = 4
                 //{0,1,1,1,2,2,3,3,4}
                 //{0,1,2,2,3,3,4}

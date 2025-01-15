@@ -3,7 +3,7 @@ package in.arfajsheru.string;
 class LongestCommonPrefix {
     public static String FindCommonPrefix(String[] str){
         //new String[]{"flower", "flow", "flying"}
-	String result = "";
+	String result = " ";
 	for (int i = 0; i < str[0].length(); i++) { // 0 < flower.length()= 0 < 5, 1 < 5 , 2 < 5
         char finding = str[0].charAt(i); // finding = f, finding = l, finding = o
         for (int j = 1; j < str.length; j++) { // ye pure string me iterate karega jab tak commaon prefix nahi mil jata
