@@ -1,4 +1,4 @@
-package in.arfajsheru.dsasolution.Math;
+package in.arfajsheru.math;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package in.arfajsheru.dsasolution.Array;
+package in.arfajsheru.array;
 /*
 * Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
 
@@ -14,7 +14,7 @@ Explanation: Your function should return k = 5, with the first five elements of 
 It does not matter what you leave beyond the returned k (hence they are underscores).
 * */
 class RemoveDuplicateFromSortedArray {
-//    int[] arr = {0,0,1,1,1,2,2,3,3,4};
+    //    int[] arr = {0,0,1,1,1,2,2,3,3,4};
     public static int removeDuplicateArray(int[] arr){
         if(arr.length == 0) return 0;
         int prev = 0; //prev = 0 , prev++ = 1 prev++ = 2 prev = 4

@@ -1,5 +1,4 @@
-package in.arfajsheru.dsasolution.String;
-
+package in.arfajsheru.string;
 class RomanToInteger {
     private final String [][] SYMBOL = new String[][] {
             {"I","1"},
@@ -51,3 +50,4 @@ class RomanToInteger {
 
     }
 }
+

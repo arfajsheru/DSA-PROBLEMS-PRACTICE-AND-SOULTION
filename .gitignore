@@ -30,4 +30,6 @@ bin/
 
 .idea/
 
-DSA-Soultion-And-Practice.iml
+*.iml/
+
+/.gitignore

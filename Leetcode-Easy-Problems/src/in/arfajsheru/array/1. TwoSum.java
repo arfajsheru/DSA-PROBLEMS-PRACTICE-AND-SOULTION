@@ -1,5 +1,4 @@
-package in.arfajsheru.dsasolution.Array;
-
+package in.arfajsheru.array;
 import java.util.Scanner;
 
 /*
@@ -48,7 +47,7 @@ class TwoSum {
 }
 
 /*
-* 2 arguments he ak int array or ak int
-* pehle i vala loop ak index lega or ander j vala loop iterate karga or i or j index vali value ka addition karenge
-* if addition == target he to vo i or j ki index vali value ko return karlo
-*  */
+ * 2 arguments he ak int array or ak int
+ * pehle i vala loop ak index lega or ander j vala loop iterate karga or i or j index vali value ka addition karenge
+ * if addition == target he to vo i or j ki index vali value ko return karlo
+ *  */
