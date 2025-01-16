@@ -17,7 +17,7 @@ class RomanToInteger {
         }
         return 0;
     }
-
+    
     private int romanToInt(String mystring){
         int result = 0;
         for (int i = 0; i < mystring.length(); i++) {

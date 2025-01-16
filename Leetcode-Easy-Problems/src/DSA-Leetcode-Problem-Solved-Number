@@ -1,19 +1,10 @@
-<----- Total leetcode problem solved ------>
-
-Array: [1, 26, 27] = 3
-String: [13, 14, 58, 28] = 4
-Math: [7, 9,66] = 3
-Sorting:
-Total = 10
-
 <----- LeetCode Pending submission problems number ------>
 Array: [0] = 0
-String: [28,58] = 2
+String: [58] = 1
 Math: [7,66] = 2
 Sorting:
-Total = 4
+Total = 3
 
-28. FindTheIndexOfTheFirstOccurrencesInString
 58. LengthOfLastWord
 7. ReverseInteger
 66. PlusOne

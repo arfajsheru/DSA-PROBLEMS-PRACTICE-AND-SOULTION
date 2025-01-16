@@ -2,7 +2,7 @@ package in.arfajsheru.string;
 
 class LengthOfLastWord {
    public static int lengthoflastword(String s){
-        s.trim();
+        s = s.trim();
      for(int i = s.length() - 1; i >= 0; i--){
          if(s.charAt(i) == ' '){
 	   return s.length() - (i + 1);
@@ -10,9 +10,8 @@ class LengthOfLastWord {
    }
 	return s.length();
   }
-
     public static void main(String[] args) {
-        System.out.println(lengthoflastword("   I currently learning DSA in Java   "));
+        System.out.println(lengthoflastword("   DSA in Java  "));
 
     }
 }
