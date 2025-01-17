@@ -7,6 +7,7 @@ class ReverseInteger {
         int rev = 0;
         while(number != 0){
             int digit = number % 10;
+            System.out.println(digit);
             // Overflow check before updating rev
             if (rev > Integer.MAX_VALUE / 10 || (rev == Integer.MAX_VALUE / 10 && digit > 7)) {
                 return 0; // Overflow for positive numbers

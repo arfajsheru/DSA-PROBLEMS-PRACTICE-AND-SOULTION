@@ -28,7 +28,6 @@ class PalindromeNumber {
             // 0 += 10 + 1 = 1, 1 = 1 * 10 + 4 = 14 , 14 = 14 * 10 + 3 = 143, 143 = 143 * 10 + 4 = 1434, 1434 = 1434 * 10 + 1 = 14341
             number /= 10; //14341 / 10 = 1434, 1432 / 10 = 143 , 143 / 10 = 14, 14 / 10 = 1, 1 / 10 = 0
         }
-        System.out.println(rev);
         return rev == original; // 14341 = 14341 = ture
     }
     public static void main(String[] args) {
