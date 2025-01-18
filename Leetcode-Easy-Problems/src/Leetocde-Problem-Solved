@@ -4,7 +4,8 @@ Array: [1, 26, 27] = 3
 String: [13, 14, 58, 28] = 4
 Math: [7, 9,66] = 3
 Sorting:
-Total = 10
+Binary Search: [704] = 1
+Total = 11
 
 
 1. Two Sum
@@ -15,7 +16,9 @@ Total = 10
 26. Remove Duplicates from Sorted Array
 27. Remove Element
 28. FindTheIndexOfTheFirstOccurrencesInString
+53. Binary search
 58. LengthOfLastWord
 66. PlusOne
+
 
 total = 10
