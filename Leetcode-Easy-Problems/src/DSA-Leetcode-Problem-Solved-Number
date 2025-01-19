@@ -1,13 +1,15 @@
-<----- LeetCode Pending submission problems number ------>
+<----- Leetcode Pending submission problems number ------>
 Array: [0] = 0
-String: [58] = 1
+String: [] = 0
 Math: [] = 0
+Binary Search = [704,35,64]  = 3
 Sorting:
-Total = 1
+Total = 3
 
-58. LengthOfLastWord
-7. ReverseInteger
-66. PlusOne
+35. Search Inset Position
+704. Binary Search
+64. Add Binary
+
 
 
 
