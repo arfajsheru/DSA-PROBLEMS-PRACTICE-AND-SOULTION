@@ -22,7 +22,6 @@ class AddBinary {
             //convert char to int
             int aVal = aChar - '0';
             int bVal = bChar - '0';
-
             // niche ki value nikaalenge
             int sum = aVal + bVal + carry;
             /*

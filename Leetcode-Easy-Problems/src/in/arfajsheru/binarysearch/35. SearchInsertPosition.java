@@ -16,7 +16,7 @@ Output: 4
 class SearchInsertPosition {
     public static void main(String[] args) {
         int[] arr = {1,3,5,6};
-        System.out.println(Solution(arr,7));
+        System.out.println(Solution(arr,6));
     }
 
 
@@ -24,7 +24,7 @@ class SearchInsertPosition {
         int beg = 0; // 2
         int end = arr.length - 1; // 4 - 1 = 3
 
-        while(beg < end){ // 0 < 3 t, 4 < 3
+        while(beg <= end){ // 0 < 3 t, 4 < 3
             int mid = beg + (end - beg) / 2; // 1 , 1 = 2 + 1 / 2 = 2 + 1 = 3
             if(arr[mid] == target){ // 3 == 7 false // 6 == 7  false
                 return mid;
