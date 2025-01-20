@@ -1,11 +1,11 @@
 <----- Total leetcode problem solved ------>
 
-Array: [1, 26, 27] = 3
+Array: [1, 26, 27,88] = 4
 String: [13, 14, 58, 28] = 4
 Math: [7, 9,66] = 3
 Sorting:
-Binary Search: [704,35,64] = 1
-Total = 11
+Binary Search: [704,35,67,69,] = 4
+Total = 15
 
 
 1. Two Sum
@@ -17,10 +17,11 @@ Total = 11
 27. Remove Element
 28. FindTheIndexOfTheFirstOccurrencesInString
 35. Search Insert Position
-53. Binary search
 58. LengthOfLastWord
-64. Add Binary
+67. Add Binary
 66. PlusOne
+69. Square Root X
+88.MergerSortedArray
+704. BinarySearch
 
-
-total = 10
+total = 15

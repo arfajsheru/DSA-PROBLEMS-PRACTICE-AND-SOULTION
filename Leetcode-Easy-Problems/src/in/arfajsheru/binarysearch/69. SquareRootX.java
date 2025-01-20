@@ -1,6 +1,6 @@
 package in.arfajsheru.binarysearch;
 
-public class SquareRootX {
+class SquareRootX {
     public static void main(String[] args) {
         System.out.println(Solution(9));
     }

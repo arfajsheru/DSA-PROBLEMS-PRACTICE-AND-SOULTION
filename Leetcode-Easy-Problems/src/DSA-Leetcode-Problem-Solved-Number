@@ -1,14 +1,17 @@
 <----- Leetcode Pending submission problems number ------>
-Array: [0] = 0
+Array: [88,] = 1
 String: [] = 0
 Math: [] = 0
-Binary Search = [704,35,64]  = 3
+Binary Search = [704,67,69]  = 3
 Sorting:
-Total = 3
+Total = 4
 
-35. Search Inset Position
+
+
+67. Add Binary
+69. Square rooX
+88. Merge Sorted Array.
 704. Binary Search
-64. Add Binary
 
 
 
