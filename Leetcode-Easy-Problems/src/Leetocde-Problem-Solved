@@ -1,6 +1,6 @@
 <----- Total leetcode problem solved ------>
 
-Array: [1, 26, 27,88] = 4
+Array: [1, 26, 27,88, 283] = 4
 String: [13, 14, 58, 28] = 4
 Math: [7, 9,66] = 3
 Sorting:
@@ -22,6 +22,7 @@ Total = 15
 66. PlusOne
 69. Square Root X
 88.MergerSortedArray
+283. Move Zeroes
 704. BinarySearch
 
 total = 15

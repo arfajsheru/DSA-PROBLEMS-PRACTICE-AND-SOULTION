@@ -1,5 +1,5 @@
 <----- Leetcode Pending submission problems number ------>
-Array: [88,] = 1
+Array: [88,283] = 1
 String: [] = 0
 Math: [] = 0
 Binary Search = [704,67,69]  = 3
@@ -11,6 +11,7 @@ Total = 4
 67. Add Binary
 69. Square rooX
 88. Merge Sorted Array.
+283. Move Zeroes
 704. Binary Search
 
 
