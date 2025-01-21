@@ -1,10 +1,11 @@
 <----- Leetcode Pending submission problems number ------>
-Array: [88,283] = 1
+
+Array: [283] = 1
 String: [] = 0
-Math: [] = 0
-Binary Search = [704,67,69]  = 3
+Math: [415] = 1
+Binary Search = [69]  = 2
 Sorting:
-Total = 4
+Total = 3
 
 
 
@@ -12,7 +13,9 @@ Total = 4
 69. Square rooX
 88. Merge Sorted Array.
 283. Move Zeroes
-704. Binary Search
+344. Reverse String
+415. AddString
+
 
 
 

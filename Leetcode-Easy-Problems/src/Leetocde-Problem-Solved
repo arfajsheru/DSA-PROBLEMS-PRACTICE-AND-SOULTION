@@ -1,12 +1,12 @@
 <----- Total leetcode problem solved ------>
 
-Array: [1, 26, 27,88, 283] = 4
-String: [13, 14, 58, 28] = 4
+Array: [1, 26, 27,88, 283] = 5
+String: [13, 14, 58, 28, 344, 415] = 6
 Math: [7, 9,66] = 3
 Sorting:
 Binary Search: [704,35,67,69,] = 4
-Total = 15
 
+Total = 18
 
 1. Two Sum
 9. Palindrome Number
@@ -23,6 +23,7 @@ Total = 15
 69. Square Root X
 88.MergerSortedArray
 283. Move Zeroes
+344. Reverse String
+415. AddString
 704. BinarySearch
 
-total = 15
