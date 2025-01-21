@@ -1,20 +1,19 @@
 <----- Leetcode Pending submission problems number ------>
 
-Array: [283] = 1
+Array: [283,169] = 2
 String: [] = 0
 Math: [415] = 1
-Binary Search = [69]  = 2
+Binary Search = [69]  = 1
 Sorting:
-Total = 3
+Total = 4
 
 
 
-67. Add Binary
+
 69. Square rooX
-88. Merge Sorted Array.
 283. Move Zeroes
-344. Reverse String
 415. AddString
+169. Majority Element
 
 
 
