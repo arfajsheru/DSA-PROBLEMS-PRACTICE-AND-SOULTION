@@ -1,4 +1,4 @@
-package in.arfajsheru.array;
+package in.arfajsheru.sorting;
 
 import java.util.Arrays;
 
