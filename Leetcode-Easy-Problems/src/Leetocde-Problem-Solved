@@ -3,9 +3,10 @@
 Array: [1, 26, 27,88, 283, 169] = 6
 String: [13, 14, 58, 28, 344,] = 5
 Math: [7, 9,66,415] = 4
-Sorting:
+Sorting:[169,217,242,268] = 4
 Binary Search: [704,35,67,69,] = 4
-
+Bit Manipulation:[136] = 0
+LinkeList = [] = 0
 Total = 20
 
 1. Two Sum
@@ -22,6 +23,7 @@ Total = 20
 66. PlusOne
 69. Square Root X
 88. MergerSortedArray
+136. Single Number
 169. Majority Element
 217. Contain Duplicate
 242. Valid anagram
@@ -29,4 +31,5 @@ Total = 20
 344. Reverse String
 415. AddString
 704. BinarySearch
+268. Missing number
 

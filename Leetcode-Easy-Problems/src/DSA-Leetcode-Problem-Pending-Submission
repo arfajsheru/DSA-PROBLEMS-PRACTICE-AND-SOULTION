@@ -4,16 +4,15 @@ Array: [] = 0
 String: [] = 0
 Math: [] = 0
 Binary Search = []  = 0
-Sorting:[217]= 1
-Total = 1
+Sorting:[217,242,268]= 2
+Bit Manipulation = [136,] = 1
+Total = 3
 
 
+136. Sinble Number
+242. ValidAnagram
+217. ContainseDuplicate
 
-
-69. Square rooX
-283. Move Zeroes
-415. AddString
-169. Majority Element
 
 
 
