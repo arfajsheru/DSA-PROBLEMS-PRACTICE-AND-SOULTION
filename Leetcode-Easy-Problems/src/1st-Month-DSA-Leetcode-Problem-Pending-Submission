@@ -5,14 +5,10 @@ String: [] = 0
 Math: [] = 0
 Binary Search = []  = 0
 Sorting:[]= 0
-Bit Manipulation = [136,190] = 1
+Bit Manipulation = [] = 0
 Total = 3
 
 
-136. Sinble Number
-242. ValidAnagram
-217. ContainseDuplicate
-190. ReverseBits
 
 
 
