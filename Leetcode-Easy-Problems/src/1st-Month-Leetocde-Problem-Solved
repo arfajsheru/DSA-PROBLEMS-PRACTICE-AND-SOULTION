@@ -1,14 +1,13 @@
 <----- Total leetcode problem solved ------>
-
 Array: [1, 26, 27,88, 283, 169] = 6
 String: [13, 14, 58, 28, 344,] = 5
 Math: [7, 9,66,415] = 4
 Sorting:[169,217,242,268] = 4
 Binary Search: [704,35,67,69,] = 4
-Bit Manipulation:[136] = 0
+Bit Manipulation:[136,268,190] = 3
 LinkeList = [] = 0
-Total = 20
 
+Total = 24
 1. Two Sum
 9. Palindrome Number
 7. ReverseInteger
@@ -25,6 +24,7 @@ Total = 20
 88. MergerSortedArray
 136. Single Number
 169. Majority Element
+190. ReverseBits
 217. Contain Duplicate
 242. Valid anagram
 283. Move Zeroes
