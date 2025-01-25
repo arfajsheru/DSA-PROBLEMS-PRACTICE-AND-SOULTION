@@ -4,10 +4,10 @@ String: [13, 14, 58, 28, 344,] = 5
 Math: [7, 9,66,415] = 4
 Sorting:[169,217,242,268] = 4
 Binary Search: [704,35,67,69,] = 4
-Bit Manipulation:[136,268,190] = 3
+Bit Manipulation:[136,268,190,191] = 4
 LinkeList = [] = 0
 
-Total = 24
+Total = 25
 1. Two Sum
 9. Palindrome Number
 7. ReverseInteger
@@ -25,6 +25,7 @@ Total = 24
 136. Single Number
 169. Majority Element
 190. ReverseBits
+191. NumberOf1Bits
 217. Contain Duplicate
 242. Valid anagram
 283. Move Zeroes

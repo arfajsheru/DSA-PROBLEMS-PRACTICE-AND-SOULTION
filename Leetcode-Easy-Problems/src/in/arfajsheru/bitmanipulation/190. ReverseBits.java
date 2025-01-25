@@ -1,17 +1,16 @@
 package in.arfajsheru.bitmanipulation;
 
-public class ReverseBits {
+class ReverseBits {
     public static void main(String[] args) {
-        System.out.println(solution(0b1010010101011010110));
+        System.out.println(solution(0b11110000111100001111000011110000));
     }
 
-    public static long solution(int num){
-        int result = 0;
-        for(int i = 0; i < 32; i++){
-            result = result << 1;
-            result = result | (num & 1);
-            num = num >>> 1;
+    public static String solution(int num) {
+        long result = 0; // Use long to store result
+        for (int i = 0; i < 32; i++) {
+            result = (result << 1) | (num & 1); // Append the last bit of num to result
+            num = num >>> 1; // Perform unsigned right shift on num
         }
-        return result & 0xFFFFFFFFL;
+        return Long.toBinaryString(result);
     }
 }
