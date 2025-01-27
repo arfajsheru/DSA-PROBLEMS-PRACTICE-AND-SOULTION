@@ -1,6 +1,6 @@
 package in.arfajsheru.bitmanipulation;
 
-public class HammingDistance {
+class HammingDistance {
     public static void main(String[] args) {
         System.out.println(solution(0,15));
     }
