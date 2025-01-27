@@ -1,4 +1,7 @@
 package in.arfajsheru.array;
+
+import java.util.Arrays;
+
 /*
 * Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
 
@@ -28,7 +31,7 @@ class RemoveDuplicateFromSortedArray {
 
             }
         }
-        return prev + 1; // 4 + 1 = 5
+        return prev + 1;
     }
     public static void main(String[] args) {
         int[] arr = {0,0,1,1,1,2,2,3,3,4};

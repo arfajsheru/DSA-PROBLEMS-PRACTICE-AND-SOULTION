@@ -7,7 +7,7 @@ Binary Search: [704,35,67,69,] = 4
 Bit Manipulation:[136,268,190,191] = 4
 LinkeList = [] = 0
 
-Total = 26
+Total = 29
 1. Two Sum
 9. Palindrome Number
 7. ReverseInteger
@@ -29,10 +29,12 @@ Total = 26
 191. NumberOf1Bits
 217. Contain Duplicate
 242. Valid anagram
+268. Missing number
 283. Move Zeroes
 326. PowerOfThree
 344. Reverse String
 415. AddString
+441. ArrangeCoin
+461. Hamming Distance
 704. BinarySearch
-268. Missing number
 
