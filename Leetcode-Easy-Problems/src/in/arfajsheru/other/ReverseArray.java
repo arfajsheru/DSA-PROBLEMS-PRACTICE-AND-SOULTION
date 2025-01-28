@@ -1,4 +1,4 @@
-package in.arfajsheru.array;
+package in.arfajsheru.other;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;

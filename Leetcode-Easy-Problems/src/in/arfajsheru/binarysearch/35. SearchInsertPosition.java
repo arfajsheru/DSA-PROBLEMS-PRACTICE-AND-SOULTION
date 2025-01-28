@@ -16,16 +16,15 @@ Output: 4
 class SearchInsertPosition {
     public static void main(String[] args) {
         int[] arr = {1,3,5,6};
-        System.out.println(Solution(arr,6));
+        System.out.println(Solution(arr,2));
     }
-
 
     public static int Solution(int[] arr, int target){
         int beg = 0; // 2
         int end = arr.length - 1; // 4 - 1 = 3
 
         while(beg <= end){ // 0 < 3 t, 4 < 3
-            int mid = beg + (end - beg) / 2; // 1 , 1 = 2 + 1 / 2 = 2 + 1 = 3
+            int mid = beg + (end - beg) / 2; // 3 / 2 = 1
             if(arr[mid] == target){ // 3 == 7 false // 6 == 7  false
                 return mid;
             } else if(target < arr[mid]){ // 7 < 3 false, // 7 < 6
@@ -34,6 +33,6 @@ class SearchInsertPosition {
                 beg = mid + 1; // 0 = 1 + 1 = 2, 2 = 3 + 1 = 4,
             }
         }
-        return end + 1; // 3 + 1 = 4
+        return beg;
     }
 }

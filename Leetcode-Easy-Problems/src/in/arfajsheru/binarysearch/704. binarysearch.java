@@ -5,7 +5,6 @@ class BinarySearch {
         int[] arr = {-1,0,3,5,9,12};
         System.out.println(Solution(arr, 9));
     }
-
     public static  int Solution(int[] arr, int target){
         int low= 0;
         int high = arr.length - 1;
