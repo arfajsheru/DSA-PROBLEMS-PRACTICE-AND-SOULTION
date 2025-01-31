@@ -14,3 +14,8 @@ class ReverseBits {
         return Long.toBinaryString(result);
     }
 }
+
+// result ko left shift move karo and right shift me zero fill karo
+// (num & 1) ye opertaion perform karge num se last bit ko uthayega or result ki end pe add
+// result me add hone ke baad number ko thodana padega to number me right shit use karenge or number ko right shift move
+// karenge or left side me zero add karenge
