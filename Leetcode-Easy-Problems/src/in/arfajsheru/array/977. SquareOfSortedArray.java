@@ -8,18 +8,20 @@ class SquareOfSortedArray {
         System.out.println(Arrays.toString(solution(nums)));
     }
 
-    public static int[] solution(int[] nums){
-        int beg = 0, end = nums.length - 1;
-        int[] result = new int[nums.length];
+    public static int[] solution(int[] nums) {
 
-        for(int i = 0; i < nums.length; i++){
+
+        int[] result = new int[nums.length];
+        int beg = 0, end = nums.length - 1;
+
+        for (int i = 0; i < nums.length; i++) {
             int sqr1 = (int) Math.pow(nums[beg], 2);
             int sqr2 = (int) Math.pow(nums[end], 2);
 
-            if(sqr1 >= sqr2){
+            if (sqr1 >= sqr2) {
                 result[nums.length - 1 - i] = sqr1;
                 beg++;
-            }else{
+            } else {
                 result[nums.length - 1 - i] = sqr2;
                 end--;
             }

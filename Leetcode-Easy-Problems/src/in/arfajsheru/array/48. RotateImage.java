@@ -14,7 +14,6 @@ class RotateImage {
             System.out.println(Arrays.toString(row));
         }
     }
-
     public static void solution(int[][] matrix){
         int n = matrix.length;
             for(int i = 0; i < n; i++){
@@ -35,9 +34,4 @@ class RotateImage {
             }
     }
 
-    public static void swap(int[][] matrix, int x1, int y1, int x2, int y2){
-        int temp = matrix[x1][y1];
-        matrix[x1][y1] = matrix[x2][y2];
-        matrix[y2][x2] = temp;
-    }
 }
