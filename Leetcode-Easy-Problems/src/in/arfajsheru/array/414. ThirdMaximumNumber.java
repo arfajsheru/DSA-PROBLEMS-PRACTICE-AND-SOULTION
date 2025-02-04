@@ -1,6 +1,6 @@
 package in.arfajsheru.array;
 
-public class ThirdMaximumNumber {
+class ThirdMaximumNumber {
     public static void main(String[] args) {
         int[] nums = {2,2,3,1};  // Example Input
         System.out.println(solution(nums));  // Output should be 4, the 3rd max number.
