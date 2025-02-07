@@ -1,6 +1,6 @@
 package in.arfajsheru.math;
 
-public class PowerOfTwo {
+class PowerOfTwo {
     public static void main(String[] args) {
         System.out.println(solution(48));
     }
