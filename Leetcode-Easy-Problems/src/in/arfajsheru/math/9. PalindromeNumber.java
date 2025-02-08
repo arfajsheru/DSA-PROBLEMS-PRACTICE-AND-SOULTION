@@ -30,6 +30,7 @@ class PalindromeNumber {
         }
         return rev == original; // 14341 = 14341 = ture
     }
+
     public static void main(String[] args) {
         if(isPalindrome(14341)){
             System.out.print("Your number is palindrome number");

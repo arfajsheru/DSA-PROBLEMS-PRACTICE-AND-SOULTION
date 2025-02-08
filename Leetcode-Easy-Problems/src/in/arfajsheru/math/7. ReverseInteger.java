@@ -32,4 +32,4 @@ class ReverseInteger {
 
 
 // ye program me ye important he ki reverse number karke reverse ka number Integer.MAX_VALUE se bada hoga to overflow ho
-// jaayega or agarm Intger.MIN_VALUE se chota hoga to underflow ho jaayega to return 0 kardena
+// jaayega or agarm Intger.MIN_VALUE se chota hoga to underflow ho jaayega to return 0 kardega
